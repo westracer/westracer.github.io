@@ -19,17 +19,23 @@ function App() {
     color: theme.palette.background.default,
   };
 
-  let linkRowContent = data.links.map((o) => <Button size="large" variant="text" color="default" href="#">
-    <FontAwesomeIcon icon={o.icon} size="3x" />
-  </Button>);
+  let linkRowContent = data.links.map((o) => 
+    <Button target="_blank" size="large" variant="text" color="default" href={o.link}>
+      <FontAwesomeIcon icon={o.icon} size="3x" />
+    </Button>
+  );
 
-  let cvRowContent = data.resume.map((o) => <Button variant="contained" color="primary" href={o.link} startIcon={<Description />}>
-    {o.text}
-  </Button>);
+  let cvRowContent = data.resume.map((o) => 
+    <Button target="_blank" variant="contained" color="primary" href={o.link} startIcon={<Description />}>
+      {o.text}
+    </Button>
+  );
   
-  let socialRowContent = data.socials.map((o) => <Button size="large" variant="text" color="default" href="#">
-    <FontAwesomeIcon icon={o.icon} size="lg" />
-  </Button>);
+  let socialRowContent = data.socials.map((o) => 
+    <Button target="_blank" size="large" variant="text" color="default" href={o.link}>
+      <FontAwesomeIcon icon={o.icon} size="lg" />
+    </Button>
+  );
 
   const toggleTheme = () => setIsDark(!isDark);
 

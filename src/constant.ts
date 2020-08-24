@@ -2,10 +2,8 @@ import {
     faStackOverflow,
     faGithub,
     faMedium,
-    faLinkedin,
     faFacebook,
     faVk,
-    faTwitter
 } from '@fortawesome/free-brands-svg-icons';
 import {  faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
@@ -16,20 +14,20 @@ const data = {
     links: [
         {
             icon: faStackOverflow,
-            link: 'https://google.com',
+            link: 'https://stackoverflow.com/users/3908065/igor-kharakhordin',
         },
         {
             icon: faGithub,
-            link: 'https://google.com',
+            link: 'https://github.com/westracer',
         },
         {
             icon: faMedium,
-            link: 'https://google.com',
+            link: 'https://medium.com/@westracer1',
         },
-        {
-            icon: faLinkedin,
-            link: 'https://google.com',
-        },
+        // {
+        //     icon: faLinkedin,
+        //     link: 'https://google.com',
+        // },
     ],
     resume: [
         {
@@ -44,20 +42,20 @@ const data = {
     socials: [
         {
             icon: faEnvelope,
-            link: 'https://google.com',
+            link: 'mailto:westracer1@gmail.com',
         },
         {
             icon: faFacebook,
-            link: 'https://google.com',
+            link: 'https://www.facebook.com/westracer/',
         },
         {
             icon: faVk,
-            link: 'https://google.com',
+            link: 'https://vk.com/westracer',
         },
-        {
-            icon: faTwitter,
-            link: 'https://google.com',
-        },
+        // {
+        //     icon: faTwitter,
+        //     link: 'https://google.com',
+        // },
     ],
 }
 
