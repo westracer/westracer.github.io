@@ -57,6 +57,16 @@
   margin: 0 10px;
 }
 
+@media (max-width: 500px) {
+  .cv-row {
+    flex-direction: column;
+  }
+  
+  .cv-row a {
+    margin: 10px 0;
+  }
+}
+
 .divider {
   width: 100%;
   max-width: 200px;
