@@ -9,9 +9,15 @@ import { Divider, IconButton } from '@material-ui/core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { CssBaseline, ThemeProvider } from '@material-ui/core';
 import themes from './theme';
+import { Mode, useLightSwitch } from 'use-light-switch';
+
+const defaultDarkMode = false;
 
 function App() {
-  const [ isDark, setIsDark ] = useState(false);
+  const browserMode = useLightSwitch();
+  const browserModeIsDark = browserMode === Mode.Dark;
+
+  const [ isDark, setIsDark ] = useState(browserModeIsDark ?? defaultDarkMode);
   const theme = createMuiTheme(isDark ? themes.dark : themes.light);
 
   const nameStyle: CSSProperties = {
