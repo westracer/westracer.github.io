@@ -4,6 +4,8 @@ import {
     faMedium,
     faFacebook,
     faVk,
+    faSkype,
+    faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
 import {  faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
@@ -24,19 +26,15 @@ const data = {
             icon: faMedium,
             link: 'https://medium.com/@westracer1',
         },
-        // {
-        //     icon: faLinkedin,
-        //     link: 'https://google.com',
-        // },
     ],
     resume: [
         {
             text: 'Resume in English',
-            link: 'https://google.com',
+            link: process.env.PUBLIC_URL + '/resume_en.pdf',
         },
         {
             text: 'Резюме на русском',
-            link: 'https://google.com',
+            link: process.env.PUBLIC_URL + '/resume_ru.pdf',
         },
     ],
     socials: [
@@ -45,12 +43,20 @@ const data = {
             link: 'mailto:westracer1@gmail.com',
         },
         {
+            icon: faSkype,
+            link: 'https://join.skype.com/invite/fEAsgRbzMU3E',
+        },
+        {
             icon: faFacebook,
             link: 'https://www.facebook.com/westracer/',
         },
         {
             icon: faVk,
             link: 'https://vk.com/westracer',
+        },
+        {
+            icon: faLinkedin,
+            link: 'https://linkedin.com/in/igor-kharakhordin',
         },
         // {
         //     icon: faTwitter,
