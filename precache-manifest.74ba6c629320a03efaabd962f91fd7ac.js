@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4e2bd2d54f2357b918d29122cf20574c",
+    "revision": "9bacb8f03b91d270f7c86dd368f41877",
     "url": "/westracer.github.io/index.html"
   },
   {
-    "revision": "f3e6b2337e6ab98b0473",
+    "revision": "07cdd1f4b2ee79589f00",
     "url": "/westracer.github.io/static/css/main.f2474586.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/westracer.github.io/static/js/2.04f95132.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f3e6b2337e6ab98b0473",
-    "url": "/westracer.github.io/static/js/main.4f639edf.chunk.js"
+    "revision": "07cdd1f4b2ee79589f00",
+    "url": "/westracer.github.io/static/js/main.25221e72.chunk.js"
   },
   {
     "revision": "88a436644af69479a78d",

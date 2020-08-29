@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/westracer.github.io/static/css/main.f2474586.chunk.css",
-    "main.js": "/westracer.github.io/static/js/main.4f639edf.chunk.js",
-    "main.js.map": "/westracer.github.io/static/js/main.4f639edf.chunk.js.map",
+    "main.js": "/westracer.github.io/static/js/main.25221e72.chunk.js",
+    "main.js.map": "/westracer.github.io/static/js/main.25221e72.chunk.js.map",
     "runtime-main.js": "/westracer.github.io/static/js/runtime-main.3184e2f3.js",
     "runtime-main.js.map": "/westracer.github.io/static/js/runtime-main.3184e2f3.js.map",
     "static/js/2.04f95132.chunk.js": "/westracer.github.io/static/js/2.04f95132.chunk.js",
     "static/js/2.04f95132.chunk.js.map": "/westracer.github.io/static/js/2.04f95132.chunk.js.map",
     "index.html": "/westracer.github.io/index.html",
-    "precache-manifest.e1b34e788e91184f8699e3311aecf5a6.js": "/westracer.github.io/precache-manifest.e1b34e788e91184f8699e3311aecf5a6.js",
+    "precache-manifest.74ba6c629320a03efaabd962f91fd7ac.js": "/westracer.github.io/precache-manifest.74ba6c629320a03efaabd962f91fd7ac.js",
     "service-worker.js": "/westracer.github.io/service-worker.js",
     "static/css/main.f2474586.chunk.css.map": "/westracer.github.io/static/css/main.f2474586.chunk.css.map",
     "static/js/2.04f95132.chunk.js.LICENSE.txt": "/westracer.github.io/static/js/2.04f95132.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.3184e2f3.js",
     "static/js/2.04f95132.chunk.js",
     "static/css/main.f2474586.chunk.css",
-    "static/js/main.4f639edf.chunk.js"
+    "static/js/main.25221e72.chunk.js"
   ]
 }
