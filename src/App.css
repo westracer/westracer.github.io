@@ -79,3 +79,11 @@
 .link-row a {
   margin: 0 10px 0;
 }
+
+.social-row {
+  margin-top: 15px;
+}
+
+.social-row a {
+  margin: 5px 10px 0;
+}

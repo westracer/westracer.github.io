@@ -58,6 +58,7 @@ function App() {
           <div className="cv-row">{cvRowContent}</div>
           <div className="divider"><Divider /></div>
           <div className="link-row">{linkRowContent}</div>
+          <div className="social-row">{socialRowContent}</div>
         </div>
       </div>
       <CssBaseline />
