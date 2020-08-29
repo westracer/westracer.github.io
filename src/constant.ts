@@ -30,11 +30,11 @@ const data = {
     resume: [
         {
             text: 'Resume in English',
-            link: process.env.PUBLIC_URL + '/resume_en.pdf',
+            link: 'https://docs.google.com/document/d/1FhIInlWVRMgO7vqt9heg-Bh5lFF7wq3F7dhfo0oaG6g/',
         },
         {
             text: 'Резюме на русском',
-            link: process.env.PUBLIC_URL + '/resume_ru.pdf',
+            link: 'https://docs.google.com/document/d/1tBXEsAiqdhvRKBomm_4zICsDGUoFC1NzRpmrwsNncJo/',
         },
     ],
     socials: [
