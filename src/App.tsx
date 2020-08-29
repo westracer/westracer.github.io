@@ -43,8 +43,9 @@ function App() {
     <ThemeProvider theme={theme}>
       <div className="App">
         <div className="top-row">
-          <IconButton onClick={toggleTheme}>{isDark ? <InvertColorsOff /> : <InvertColors />}</IconButton>
-          <div>{socialRowContent}</div>
+          <IconButton size="small" onClick={toggleTheme}>
+            {isDark ? <InvertColorsOff /> : <InvertColors />}
+          </IconButton>
         </div>
         <div className="content">
           <h1 className="name" style={nameStyle}>{data.name}</h1>
