@@ -3,7 +3,6 @@ import {
     faGithub,
     faMedium,
     faFacebook,
-    faVk,
     faSkype,
     faLinkedin,
 } from '@fortawesome/free-brands-svg-icons';
@@ -51,17 +50,9 @@ const data = {
             link: 'https://www.facebook.com/westracer/',
         },
         {
-            icon: faVk,
-            link: 'https://vk.com/westracer',
-        },
-        {
             icon: faLinkedin,
             link: 'https://linkedin.com/in/igor-kharakhordin',
         },
-        // {
-        //     icon: faTwitter,
-        //     link: 'https://google.com',
-        // },
     ],
 }
 
