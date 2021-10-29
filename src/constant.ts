@@ -10,7 +10,7 @@ import {  faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const data = {
     name: 'Igor Kharakhordin',
-    title: 'Software Engineer',
+    title: 'Software Engineer, Lead Flutter Developer',
     location: 'Barnaul, Russia',
     links: [
         {
